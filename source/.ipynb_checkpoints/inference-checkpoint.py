@@ -9,7 +9,7 @@ import pandas as pd
 import joblib
 import boto3
 
-from source.preprocess import preprocess
+from .preprocess import preprocess
 
 # ログの設定
 logging.basicConfig(level=logging.INFO)
